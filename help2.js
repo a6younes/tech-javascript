@@ -31,7 +31,7 @@ const rl = readline.createInterface({
 
 rl.question('nb homme ? ', (answer1) => {
     rl.question('nb femme ? ', (answer2) => {
-        var result = min(answer1,answer2);   // ligne divisant le resultat de l'addition par 2 et obtenir un nombre entier.
+        var result = min(answer1,answer2);  // Prend le minimum et compte le nombre de couples avec //
         console.log(`Le nombre de couple est de : ${'👫'.repeat (result)} `);
         rl.close();
     });
